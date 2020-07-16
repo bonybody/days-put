@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "Days Put",
+  "title": "DAYS PUT",
   "description": "",
   "dest": "public",
   "head": [
