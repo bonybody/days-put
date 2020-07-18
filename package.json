@@ -4,7 +4,7 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build src"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.5.2",
