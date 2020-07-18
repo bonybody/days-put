@@ -1,7 +1,7 @@
 module.exports = {
   "title": "DAYS PUT",
   "description": "",
-  "dest": "src",
+  "dest": "public",
   "head": [
     [
       "link",
