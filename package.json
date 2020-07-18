@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "daysput",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "I.Y",
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build ."
@@ -13,6 +13,5 @@
   },
   "dependencies": {
     "vue-class-component": "^7.2.3"
-  },
-  "description": ""
+  }
 }
