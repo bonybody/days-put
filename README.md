@@ -3,14 +3,14 @@ home: true
 heroText: null
 heroImage: /hero.png
 heroImageStyle: {
-  maxWidth: '500px',
+  maxWidth: '400px',
   width: '100%',
   display: block,
-  margin: '3rem 1rem 3rem'
+  margin: '3rem auto 3rem'
 }
 bgImageStyle: {
   bgImage: null,
-  height: '300px'
+  height: '250px'
 }
 isShowTitleInHome: false
 actionText: Guide
