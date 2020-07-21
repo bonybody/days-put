@@ -6,12 +6,11 @@ heroImageStyle: {
   maxWidth: '500px',
   width: '100%',
   display: block,
-  margin: '5rem auto 2rem',
-  borderRadius: '1rem',
+  margin: '3rem 1rem 3rem'
 }
 bgImageStyle: {
   bgImage: null,
-  height: '450px'
+  height: '300px'
 }
 isShowTitleInHome: false
 actionText: Guide
