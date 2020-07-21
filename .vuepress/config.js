@@ -1,6 +1,6 @@
 module.exports = {
   "title": "DAYS PUT",
-  "description": "",
+  "description": "日々得られる知識を整頓する技術系備忘録",
   "dest": "public",
   "head": [
     [
@@ -15,6 +15,13 @@ module.exports = {
       {
         "rel": "stylesheet",
         "href": "https://fonts.googleapis.com/css?family=Anton"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
       }
     ],
     [
@@ -97,7 +104,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "imai",
+    "author": "I.Y",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
     "startYear": "2020",

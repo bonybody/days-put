@@ -1,18 +1,16 @@
 ---
 home: true
-heroText: hello, my-blog
-tagline: A simple and beautiful vuepress blog theme.
+heroText: null
 heroImage: /hero.png
 heroImageStyle: {
-  maxWidth: '600px',
+  maxWidth: '500px',
   width: '100%',
   display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
+  margin: '5rem auto 2rem',
   borderRadius: '1rem',
 }
 bgImageStyle: {
-  bgImage: '/bg.png',
+  bgImage: null,
   height: '450px'
 }
 isShowTitleInHome: false
