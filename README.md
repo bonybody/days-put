@@ -6,7 +6,7 @@ heroImageStyle: {
   maxWidth: '400px',
   width: '100%',
   display: block,
-  margin: '3rem auto 3rem'
+  margin: '1.3rem auto'
 }
 bgImageStyle: {
   bgImage: null,
