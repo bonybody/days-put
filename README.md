@@ -3,7 +3,7 @@ home: true
 heroText: null
 heroImage: /hero.png
 heroImageStyle: {
-  maxWidth: '400px',
+  maxWidth: '250px',
   width: '100%',
   display: block,
   margin: '1.3rem auto'
