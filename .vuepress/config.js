@@ -48,7 +48,7 @@ module.exports = {
       {
         "text": "About",
         "icon": "reco-message",
-        "link": "/docs/theme-reco/"
+        "link": "/docs/about/"
       },
       {
         "text": "Contact",
@@ -67,14 +67,6 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
-    },
     "type": "blog",
     "blogConfig": {
       "category": {
