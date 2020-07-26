@@ -34,6 +34,13 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "vssueConfig": {
+      "platform": 'github',
+      "owner": 'OWNER_OF_REPO',
+      "repo": 'NAME_OF_REPO',
+      "clientId": 'YOUR_CLIENT_ID',
+      "clientSecret": 'YOUR_CLIENT_SECRET',
+    },
     "nav": [
       {
         "text": "Home",
@@ -44,11 +51,6 @@ module.exports = {
         "text": "TimeLine",
         "link": "/timeline/",
         "icon": "reco-date"
-      },
-      {
-        "text": "About",
-        "icon": "reco-message",
-        "link": "/docs/about/"
       },
       {
         "text": "Contact",
