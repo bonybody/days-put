@@ -116,7 +116,7 @@ module.exports = {
     'seo': {
       description: ($page, $site) => $page.frontmatter.description || ($page.excerpt && $page.excerpt.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, "")) || $site.description || "",
       title: ($page, $site) => $page.title || $site.title,
-      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image) || 'https://placehold.jp/40//fff/600x315.png?css=%7Bpadding%3A%200%2080px%2Cbackground-image%3A%20url(https%3A%2F%2Fplacehold.jp%2F057%2F333%2F130x40.png%3Ftext%3DDAYSPUT)"%7D&text='+encodeURIComponent($page.title||$site.title),
+      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image) || 'https://placehold.jp/40//fff/600x315.png?css="%7B"padding"%3A"%200%2080px"%2C"background-image"%3A"%20url(https%3A%2F%2Fplacehold.jp%2F057%2F333%2F130x40.png%3Ftext%3DDAYSPUT)"%7D&text='+encodeURIComponent($page.title||$site.title),
     }
   }
 }
