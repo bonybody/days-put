@@ -111,7 +111,7 @@ module.exports = {
   },
   plugins: {
     '@vuepress/google-analytics': {
-      'ga': ''
+      'ga': 'UA-173615878-1'
     },
     'seo': {
       description: ($page, $site) => $page.frontmatter.description || ($page.excerpt && $page.excerpt.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, "")) || $site.description || "",
