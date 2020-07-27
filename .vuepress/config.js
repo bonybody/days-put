@@ -36,10 +36,10 @@ module.exports = {
   "themeConfig": {
     "vssueConfig": {
       "platform": 'github',
-      "owner": 'OWNER_OF_REPO',
-      "repo": 'NAME_OF_REPO',
-      "clientId": 'YOUR_CLIENT_ID',
-      "clientSecret": 'YOUR_CLIENT_SECRET',
+      "owner": 'bonybody',
+      "repo": 'DAYS-PUT',
+      "clientId": '3c1c6993671e8a364333',
+      "clientSecret": 'e9d57363bbb4d5c20ddfbc00ec3f3769f1c8ac92',
     },
     "nav": [
       {
