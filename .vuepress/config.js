@@ -34,7 +34,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
-    "domain": 'https://dorasu-tech.netlify.com',
+    "domain": 'https://daysput.netlify.app',
     "vssueConfig": {
       "platform": 'github',
       "owner": 'bonybody',
