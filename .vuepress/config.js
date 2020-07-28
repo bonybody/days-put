@@ -116,7 +116,7 @@ module.exports = {
     'seo': {
       description: ($page, $site) => $page.frontmatter.description || ($page.excerpt && $page.excerpt.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, "")) || $site.description || "",
       title: ($page, $site) => $page.title || $site.title,
-      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image) || 'https://placehold.jp/40//fff/600x315.png?css=%7B%22padding%22%3A%22%200%2080px%22%2C%22background-image%22%3A%22%20url(http://placehold.jp/400/5358bd/fcf9f9/1200x630.png?text=DAYS%0APUT&css=%7B%22text-align%22%3A%22%20left%22%2C%22font-weight%22%3A%22%20900%22%2C%22line-height%22%3A%22%20300px%22%2C%22color%22%3A%22%20rgba(255%2C255%2C255%2C0.1)%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23667eea)%2C%20to(%23764ba2))%22%7D)%22%7D&text='+encodeURIComponent($page.title||$site.title),
+      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image) || 'http://placehold.jp/50/3d4070/ffffff/1200x630.png?css=%7B%22word-wrap%22%3A%22%20break-word%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23667eea)%2C%20to(%23764ba2))%22%7D&text='+encodeURIComponent($page.title||$site.title),
     }
   }
 }
