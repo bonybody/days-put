@@ -38,7 +38,7 @@ module.exports = {
     "vssueConfig": {
       "platform": 'github',
       "owner": 'bonybody',
-      "repo": 'DAYS-PUT',
+      "repo": 'daysput',
       "clientId": '3c1c6993671e8a364333',
       "clientSecret": 'e9d57363bbb4d5c20ddfbc00ec3f3769f1c8ac92',
     },
@@ -81,20 +81,6 @@ module.exports = {
         "text": "Tag"
       }
     },
-    "friendLink": [
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
