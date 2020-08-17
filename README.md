@@ -10,9 +10,9 @@ heroImageStyle: {
 }
 bgImageStyle: {
   bgImage: null,
-  height: '250px'
+  height: '300px'
 }
-isShowTitleInHome: true
+# isShowTitleInHome: true
 # actionText: Guide
 # actionLink: /views/other/guide
 # features:
