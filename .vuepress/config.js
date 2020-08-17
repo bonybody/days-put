@@ -1,5 +1,5 @@
 module.exports = {
-    "title": "DAYS PUT",
+    "title": "daysput",
     "description": "日々得られる知識を整頓する技術系備忘録",
     "dest": "public",
     "head": [
