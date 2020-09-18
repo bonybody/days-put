@@ -31,7 +31,7 @@ Failed to load resource: net::ERR_FILE_NOT_FOUND /favicon.ico:1
 ```html
 <link href=/css/app.2924915d.css>
 ```
-キモというのは、最初の *「/」*です。<br>
+キモというのは、最初の *「/」* です。<br>
 この指定（絶対PATH）では、WEBサーバのように **公開するディレクトリのルート(ドキュメントルート)** が設定されていないと、**PC本体のルートディレクトリ**を指してしまいます。<br>
 
 ## 対処方法
